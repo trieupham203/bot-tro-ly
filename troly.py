@@ -16,7 +16,7 @@ from flask import Flask
 # ==========================================================
 # CONFIG
 # ==========================================================
-TELEGRAM_BOT_TOKEN = "PUT_YOUR_TOKEN_HERE"
+TELEGRAM_BOT_TOKEN = "7725834820:AAH9utkQjOP7wumhhpSTOGYbp8PbtSQTjvg"
 PORT = int(os.environ.get("PORT", 10000))
 
 # Timezone VN (không cần tzdata)
@@ -535,3 +535,4 @@ if __name__ == "__main__":
 
     # Updates loop (blocking)
     handle_updates_forever()
+
